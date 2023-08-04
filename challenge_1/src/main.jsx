@@ -16,15 +16,15 @@ const tasks = [
     completed: true,
   },
   {
-    id: 2,
-    title: 'Task 2',
-    description: 'This is the description of the task 2',
+    id: 3,
+    title: 'Task 3',
+    description: 'This is the description of the task 3',
     completed: true,
   },
   {
     id: 3,
-    title: 'Task 3',
-    description: 'This is the description of the task 3',
+    title: 'Task 4',
+    description: 'This is the description of the task 4',
     completed: false,
   },
 ];

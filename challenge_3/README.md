@@ -19,3 +19,7 @@ Specifications:
 - Disable the form submission button if any validation errors exist. 
 
 - When the form is successfully submitted, log the form data to the console. 
+
+## Output
+
+[label](../../../../D:/projects/ga-react-challenge/challenge_3/2023-08-05%2023-20-13.mp4)

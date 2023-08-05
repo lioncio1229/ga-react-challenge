@@ -30,12 +30,12 @@ Here's the example optimization when clicking the edit menu of the dashboard.
 
 ### Before
 
-![Alt text](../../../../D:/projects/ga-react-challenge/challenge_4/Screenshot%202023-08-05%20205536.png)
+![Alt text](./Screenshot%202023-08-05%20205536.png)
 
 
 ### After
 
-![Alt text](../../../../D:/projects/ga-react-challenge/challenge_4/Screenshot%202023-08-05%20205529.png)
+![Alt text](./Screenshot%202023-08-05%20205529.png)
 
 
 

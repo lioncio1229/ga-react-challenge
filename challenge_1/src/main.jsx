@@ -2,7 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import TaskList from './components/TaskList';
 
-const tasks = [
+export const tasks = [
   {
     id: 1,
     title: 'Task 1',

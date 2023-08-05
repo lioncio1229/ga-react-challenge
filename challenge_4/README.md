@@ -23,19 +23,19 @@ Specifications:
 I optimized my app using `memo` and `useCallback` to reduce unnecesarry re-renders of other components when updating products.
 I haven't used the `useMemo` as my app doesn't have repetitive task or computition inside component.
 
-[Here's the link to the app repo](https://github.com/lioncio1229/product-manager-frontend)
+[Link to the app repo](https://github.com/lioncio1229/product-manager-frontend)
 
 
 Here's the example optimization when clicking the edit menu of the dashboard.
 
 ### Before
 
-![Alt text](../../../../D:/projects/ga-react-challenge/challenge_4/Screenshot%202023-08-05%20205536.png)
+![Alt text](./Screenshot%202023-08-05%20205536.png)
 
 
 ### After
 
-![Alt text](../../../../D:/projects/ga-react-challenge/challenge_4/Screenshot%202023-08-05%20205529.png)
+![Alt text](./Screenshot%202023-08-05%20205529.png)
 
 
 

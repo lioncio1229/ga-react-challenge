@@ -1,0 +1,42 @@
+input {
+    padding: 8px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button{
+    width: 100%;
+    padding: 8px;
+    background-color: #2a3a81;
+    color: white;
+    border: none;
+    padding: 14px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:disabled{
+    background-color: #5b6591;
+    cursor: default;
+}
+
+h1{
+    margin-top: 0;
+}
+
+h4{
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.field{
+    position: relative;
+    margin-bottom: 32px;
+}
+
+.error{
+    position: absolute;
+    left: 0;
+    bottom: -18px;
+    color: red;
+}

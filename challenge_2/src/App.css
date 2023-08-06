@@ -1,0 +1,170 @@
+.app{
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+.title{
+  position: absolute;
+  background-color: white;
+  top: 0;
+  left: 0;
+  padding: 16px 12px;
+  margin: 0;
+}
+
+/* #region Table */
+
+.grid-container{
+  padding-top: 62px;
+  color: white;
+  min-width: 540px;
+}
+
+.grid-row{
+  display: grid;
+  grid-template-columns: 80px repeat(3, 1fr);
+  color: white
+}
+
+.grid-row.header{
+  position: sticky;
+  top: 0;
+}
+
+.grid-row:nth-child(odd){
+  background-color: #e0ffee;
+}
+
+.grid{
+  padding: 12px;
+  height: 40px;
+  line-height: 40px;
+  min-width: 50px;
+}
+
+.grid.header{
+  background-color: cadetblue;
+}
+
+.grid.item{
+  background-color: transparent;
+  color: cadetblue;
+  font-size: 14px;
+}
+
+.item img{
+  width: auto;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.more{
+  color: cadetblue;
+  font-size: 12px;
+  background-color:#efefef;
+}
+
+.more:hover{
+  background-color: cadetblue;
+  color: white;
+}
+
+/* #endregion */
+
+
+/* #region Modal */
+.modal-container{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(134, 134, 134, 0.082);
+  z-index: 10;
+}
+
+.modal{
+  display: flex;
+  width: 500px;
+  background-color: white;
+  box-shadow: 0 2px 3px 2px rgb(211, 211, 211);
+  padding: 16px;
+  border-radius: 8px;
+}
+
+.modal img{
+  width: 200px;
+  height: auto;
+}
+
+.info{
+  width: 100%;
+  padding-left: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.close-wrapper{
+  display: flex;
+  justify-content: end;
+  margin-bottom: 8px;
+}
+
+.close-wrapper button{
+  font-size: 14px;
+  color: cadetblue;
+}
+
+.close-wrapper button:hover{
+  background-color: cadetblue;
+  color: white;
+}
+
+.info-grid{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: repeat(auto-fill, 40px);
+  gap: 1px;
+}
+
+.info-grid div{
+  line-height: 25px;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+.info-grid .key{
+  text-align: center;
+  background-color: cadetblue;
+  color: white;
+}
+
+.info-grid .value{
+  background-color: rgb(230, 230, 230);
+  color: cadetblue;
+}
+
+@media(max-width: 480px){
+  .modal{
+    flex-direction: column;
+    row-gap: 8px;
+    width: unset;
+    width: 70vw;
+    min-width: 265px;
+    align-items: center;
+  }
+  .info{
+    padding-left: 0;
+    flex-direction: column-reverse;
+  }
+  .close-wrapper{
+    margin-top: 8px;
+  }
+}
+
+/* #endregion */

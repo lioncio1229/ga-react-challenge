@@ -39,4 +39,4 @@ Specifications:
 
 ## Result
 
-![Alt text](../../../../D:/projects/ga-react-challenge/challenge_2/result.png)
+![Alt text](./result.png)

@@ -22,4 +22,4 @@ Specifications:
 
 ## Output
 
-[label](../../../../D:/projects/ga-react-challenge/challenge_3/2023-08-05%2023-20-13.mp4)
+[label](./2023-08-05%2023-20-13.mp4)
